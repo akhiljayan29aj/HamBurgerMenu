@@ -87,6 +87,10 @@
     transform: rotate(225deg);
 }
 
+.menu-wrap .toggler:hover + .hamburger div{
+    transform: rotate(180deg);
+}
+
 /* Show menu */
 
 .menu-wrap .toggler:checked ~ .menu{
